@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Generic status-pill background. Colour is swapped per use-case with
+  app:backgroundTint (e.g. @color/status_pending_bg, @color/status_success_bg)
+  set either in the layout or programmatically when binding real data.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/status_pending_bg" />
+    <corners android:radius="@dimen/radius_pill" />
+</shape>

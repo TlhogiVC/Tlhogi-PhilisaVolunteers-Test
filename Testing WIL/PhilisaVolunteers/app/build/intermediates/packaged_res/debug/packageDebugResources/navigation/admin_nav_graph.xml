@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/admin_nav_graph"
+    app:startDestination="@id/adminDashboardFragment">
+
+    <fragment
+        android:id="@+id/adminDashboardFragment"
+        android:name="com.philisa.volunteers.admin.dashboard.AdminDashboardFragment"
+        android:label="Overview" />
+
+    <fragment
+        android:id="@+id/manageVolunteersFragment"
+        android:name="com.philisa.volunteers.admin.volunteers.ManageVolunteersFragment"
+        android:label="Manage Volunteers" />
+
+    <fragment
+        android:id="@+id/volunteerDetailsFragment"
+        android:name="com.philisa.volunteers.admin.volunteers.VolunteerDetailsFragment"
+        android:label="Volunteer Application">
+        <argument
+            android:name="extra_volunteer_application_id"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/manageActivitiesFragment"
+        android:name="com.philisa.volunteers.admin.activities.ManageActivitiesFragment"
+        android:label="Manage Activities" />
+
+    <fragment
+        android:id="@+id/createActivityFragment"
+        android:name="com.philisa.volunteers.admin.activities.CreateActivityFragment"
+        android:label="New Activity" />
+
+    <fragment
+        android:id="@+id/editActivityFragment"
+        android:name="com.philisa.volunteers.admin.activities.EditActivityFragment"
+        android:label="Edit Activity">
+        <argument
+            android:name="extra_activity_id"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/manageAnnouncementsFragment"
+        android:name="com.philisa.volunteers.admin.announcements.ManageAnnouncementsFragment"
+        android:label="Announcements" />
+
+    <fragment
+        android:id="@+id/createAnnouncementFragment"
+        android:name="com.philisa.volunteers.admin.announcements.CreateAnnouncementFragment"
+        android:label="New Announcement" />
+
+    <fragment
+        android:id="@+id/manageActivityApplicationsFragment"
+        android:name="com.philisa.volunteers.admin.applications.ManageActivityApplicationsFragment"
+        android:label="Activity Applications" />
+
+    <fragment
+        android:id="@+id/applicantDetailsFragment"
+        android:name="com.philisa.volunteers.admin.applications.ApplicantDetailsFragment"
+        android:label="Applicant">
+        <argument
+            android:name="extra_activity_application_id"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/manageImpactStatsFragment"
+        android:name="com.philisa.volunteers.admin.impact.ManageImpactStatsFragment"
+        android:label="Impact Stats" />
+
+    <fragment
+        android:id="@+id/manageGalleryFragment"
+        android:name="com.philisa.volunteers.admin.gallery.ManageGalleryFragment"
+        android:label="Manage Gallery" />
+
+    <action
+        android:id="@+id/action_global_volunteerDetailsFragment"
+        app:destination="@id/volunteerDetailsFragment" />
+
+    <action
+        android:id="@+id/action_global_createActivityFragment"
+        app:destination="@id/createActivityFragment" />
+
+    <action
+        android:id="@+id/action_global_editActivityFragment"
+        app:destination="@id/editActivityFragment" />
+
+    <action
+        android:id="@+id/action_global_createAnnouncementFragment"
+        app:destination="@id/createAnnouncementFragment" />
+
+    <action
+        android:id="@+id/action_global_applicantDetailsFragment"
+        app:destination="@id/applicantDetailsFragment" />
+
+    <action
+        android:id="@+id/action_global_manageImpactStatsFragment"
+        app:destination="@id/manageImpactStatsFragment" />
+
+    <action
+        android:id="@+id/action_global_manageGalleryFragment"
+        app:destination="@id/manageGalleryFragment" />
+
+</navigation>

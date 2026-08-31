@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Label/value row used inside the Application Summary card
+  (fragment_apply_step3_review.xml, Figure 53). Each <include> of this
+  layout sets tvLabel (e.g. "Name") and tvValue (e.g. "Zanele Mthembu")
+  from the hosting Fragment.
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/spacing_sm"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/summary_name"
+        android:textColor="@color/text_secondary"
+        android:textSize="@dimen/text_body" />
+
+    <TextView
+        android:id="@+id/tvValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:textColor="@color/text_primary"
+        android:textSize="@dimen/text_body"
+        android:textStyle="bold"
+        tools:text="Zanele Mthembu" />
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Reusable purple header for the 3-step volunteer application flow
+  (Figures 51-53). Included by fragment_apply_step1/2/3.
+  Set tvStepLabel / tvStepTitle text and toggle segment2Fill / segment3Fill
+  backgrounds (progress_active vs progress_inactive) from the hosting
+  Fragment based on the current step.
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_gradient_header_rounded"
+    android:paddingHorizontal="@dimen/spacing_lg"
+    android:paddingTop="@dimen/spacing_lg"
+    android:paddingBottom="@dimen/spacing_lg">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#33FFFFFF"
+        android:contentDescription="@string/btn_back"
+        android:padding="8dp"
+        android:src="@drawable/ic_arrow_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="@color/text_on_purple" />
+
+    <TextView
+        android:id="@+id/tvStepLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_md"
+        android:letterSpacing="0.1"
+        android:text="@string/step_of_3"
+        android:textColor="#CBB6F5"
+        android:textSize="@dimen/text_caption"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnBack" />
+
+    <TextView
+        android:id="@+id/tvStepTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_xs"
+        android:textAppearance="@style/TextAppearance.Philisa.Display"
+        android:text="@string/step1_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvStepLabel" />
+
+    <LinearLayout
+        android:id="@+id/progressRow"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/progress_segment_height"
+        android:layout_marginTop="@dimen/spacing_md"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvStepTitle">
+
+        <View
+            android:id="@+id/segment1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_progress_segment"
+            android:backgroundTint="@color/progress_active" />
+
+        <View android:layout_width="6dp" android:layout_height="match_parent" />
+
+        <View
+            android:id="@+id/segment2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_progress_segment"
+            android:backgroundTint="@color/progress_inactive" />
+
+        <View android:layout_width="6dp" android:layout_height="match_parent" />
+
+        <View
+            android:id="@+id/segment3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_progress_segment"
+            android:backgroundTint="@color/progress_inactive" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

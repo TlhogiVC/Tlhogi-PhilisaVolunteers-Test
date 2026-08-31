@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  TEMPORARY placeholder glyph used for every programme-interest icon in
+  item_interest_option.xml. Replace per-programme with a proper Material
+  Symbol via Android Studio: File > New > Vector Asset (suggested icons:
+  favorite, groups, work, restaurant, shield, medical_services).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="@color/purple_600">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M12,2 L14.5,9.5 L22,12 L14.5,14.5 L12,22 L9.5,14.5 L2,12 L9.5,9.5 Z" />
+</vector>

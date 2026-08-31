@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Philisa Volunteer</string>
+
+    <!-- Welcome (Fig 49) -->
+    <string name="welcome_org_name">Philisa Abafazi Bethu</string>
+    <string name="welcome_org_subtitle">Women Centre SA</string>
+    <string name="welcome_quote_line1">We rise by</string>
+    <string name="welcome_quote_line2">lifting others.</string>
+    <string name="welcome_body">Join over 1 200 volunteers making a real difference in communities across Cape Town, South Africa.</string>
+    <string name="welcome_tagline">"Bringing the Lavender Back to the Hills."</string>
+    <string name="welcome_cta">Explore Philisa Volunteers</string>
+
+    <!-- Landing (Fig 50) -->
+    <string name="landing_eyebrow">OFFICIAL VOLUNTEER APP</string>
+    <string name="landing_tagline">"Bringing the Lavender Back to the Hills."</string>
+    <string name="landing_btn_become_volunteer">Become a Volunteer</string>
+    <string name="landing_btn_login">Volunteer Login</string>
+    <string name="landing_about_eyebrow">ABOUT US</string>
+    <string name="landing_about_title">A Centre Built on Compassion</string>
+    <string name="landing_about_body">Philisa Abafazi Bethu Women Centre SA is a non-profit organisation rooted in the belief that every woman deserves safety, dignity, and opportunity. From the hills of Cape Town\'s townships, we have grown into a vital lifeline for women, children, and families across our communities.</string>
+
+    <!-- Step header -->
+    <string name="step_of_3">STEP %1$d OF 3</string>
+
+    <!-- Application Step 1 (Fig 51) -->
+    <string name="step1_title">Your Details</string>
+    <string name="label_first_name">First Name</string>
+    <string name="label_last_name">Last Name</string>
+    <string name="label_email">Email Address</string>
+    <string name="label_phone">Phone Number</string>
+    <string name="label_area">Area / Township</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_back">Back</string>
+
+    <!-- Application Step 2 (Fig 52) -->
+    <string name="step2_title">Your Interests</string>
+    <string name="label_programme_interest">PROGRAMME INTEREST</string>
+    <string name="label_motivation">YOUR MOTIVATION</string>
+    <string name="hint_motivation">Tell us why you would like to volunteer…</string>
+    <string name="programme_womens_empowerment">Women\'s Empowerment</string>
+    <string name="programme_youth">Youth Programme</string>
+    <string name="programme_after_school">After-School Programme</string>
+    <string name="programme_community_feeding">Community Feeding</string>
+    <string name="programme_safe_houses">Emergency Safe Houses</string>
+    <string name="programme_social_work">Social Work Services</string>
+
+    <!-- Application Step 3 (Fig 53) -->
+    <string name="step3_title">Review &amp; Submit</string>
+    <string name="label_application_summary">APPLICATION SUMMARY</string>
+    <string name="summary_name">Name</string>
+    <string name="summary_email">Email</string>
+    <string name="summary_phone">Phone</string>
+    <string name="summary_area">Area</string>
+    <string name="summary_programme">Programme</string>
+    <string name="submit_info_banner">After submitting, you will receive a confirmation email. Our team reviews applications within 3–5 business days.</string>
+    <string name="btn_submit_application">Submit Application</string>
+
+    <!-- Application Status (Fig 54) -->
+    <string name="application_status_title">Application Status</string>
+    <string name="application_received_title">Application Received</string>
+    <string name="application_reference_format">Reference: %1$s</string>
+    <string name="status_under_review">Under Review</string>
+    <string name="timeline_submitted">Application Submitted</string>
+    <string name="timeline_verification">Document Verification</string>
+    <string name="timeline_coordinator_review">Coordinator Review</string>
+    <string name="timeline_approved">Application Approved</string>
+    <string name="status_pending_label">Pending</string>
+    <string name="status_expected_format">Expected %1$s</string>
+
+</resources>

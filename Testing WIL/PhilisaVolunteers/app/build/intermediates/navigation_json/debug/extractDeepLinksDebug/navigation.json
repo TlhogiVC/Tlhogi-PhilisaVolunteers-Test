@@ -1,0 +1,24 @@
+[
+  {
+    "name": "admin_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "auth_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph",
+    "navigationXmlIds": [
+      "auth_nav_graph"
+    ],
+    "deepLinks": []
+  },
+  {
+    "name": "volunteer_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  }
+]

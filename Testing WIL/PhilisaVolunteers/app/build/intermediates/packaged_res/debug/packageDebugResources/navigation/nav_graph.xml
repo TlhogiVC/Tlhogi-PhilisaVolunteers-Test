@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Root navigation map for the whole app (documentation graph — see auth_nav_graph.xml for why
+     this nests <activity> destinations rather than driving runtime navigation directly). -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/auth_nav_graph">
+
+    <include app:graph="@navigation/auth_nav_graph" />
+
+    <activity
+        android:id="@+id/volunteerMainActivityDestination"
+        android:name="com.philisa.volunteers.ui.volunteer.VolunteerMainActivity"
+        android:label="Philisa Volunteers" />
+
+    <activity
+        android:id="@+id/adminMainActivityDestination"
+        android:name="com.philisa.volunteers.admin.AdminMainActivity"
+        android:label="Philisa Management" />
+
+</navigation>

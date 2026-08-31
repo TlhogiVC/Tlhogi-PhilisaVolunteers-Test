@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Figure 49: Welcome / splash screen -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_900">
+
+    <!--
+      android:src is the gradient fallback shown until a real photo asset is
+      added. Drop a JPG/WebP into res/drawable (e.g. img_welcome_bg.webp)
+      and point android:src at it; tools:src only affects the Layout Editor
+      preview, not the running app.
+    -->
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_gradient_header"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_scrim_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Top-left logo lockup -->
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="@dimen/spacing_lg"
+        android:layout_marginTop="@dimen/spacing_lg"
+        android:background="@drawable/bg_icon_circle"
+        android:contentDescription="@string/welcome_org_name"
+        android:padding="6dp"
+        android:src="@drawable/ic_check_circle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvOrgName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_sm"
+        android:text="@string/welcome_org_name"
+        android:textColor="@color/text_on_purple"
+        android:textSize="@dimen/text_body"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tvOrgSubtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivLogo"
+        app:layout_constraintTop_toTopOf="@id/ivLogo"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/tvOrgSubtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_sm"
+        android:layout_marginEnd="@dimen/spacing_lg"
+        android:text="@string/welcome_org_subtitle"
+        android:textColor="#D8CCF0"
+        android:textSize="@dimen/text_caption"
+        app:layout_constraintBottom_toBottomOf="@id/ivLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tvOrgName"
+        app:layout_constraintTop_toBottomOf="@id/tvOrgName" />
+
+    <!-- Bottom content stack -->
+    <TextView
+        android:id="@+id/tvQuote"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_lg"
+        android:layout_marginEnd="@dimen/spacing_lg"
+        android:layout_marginBottom="@dimen/spacing_md"
+        android:fontFamily="serif"
+        android:text="@string/welcome_quote_line1"
+        android:textColor="@color/text_on_purple"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tvBody"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBody"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_lg"
+        android:layout_marginEnd="@dimen/spacing_lg"
+        android:layout_marginBottom="@dimen/spacing_sm"
+        android:text="@string/welcome_body"
+        android:textColor="#E9E1F7"
+        android:textSize="@dimen/text_body"
+        app:layout_constraintBottom_toTopOf="@id/tvTagline"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTagline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_lg"
+        android:layout_marginEnd="@dimen/spacing_lg"
+        android:layout_marginBottom="@dimen/spacing_lg"
+        android:text="@string/welcome_tagline"
+        android:textColor="#B9A6DD"
+        android:textSize="@dimen/text_caption"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@id/btnExplore"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnExplore"
+        style="@style/Widget.Philisa.Button.Primary"
+        android:layout_width="0dp"
+        android:layout_marginStart="@dimen/spacing_lg"
+        android:layout_marginEnd="@dimen/spacing_lg"
+        android:layout_marginBottom="@dimen/spacing_xl"
+        android:backgroundTint="@color/surface_white"
+        android:text="@string/welcome_cta"
+        android:textColor="@color/purple_700"
+        app:icon="@drawable/ic_arrow_forward"
+        app:iconGravity="end"
+        app:iconTint="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

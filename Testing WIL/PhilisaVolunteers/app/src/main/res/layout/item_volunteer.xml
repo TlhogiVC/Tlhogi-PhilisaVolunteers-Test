@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_sm"
+    android:background="@drawable/bg_card"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/spacing_md">
+
+    <TextView
+        android:id="@+id/tvInitial"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_profile_circle"
+        android:gravity="center"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        tools:text="N" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_md"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvVolunteerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Philisa.Subtitle"
+            tools:text="Nomsa Dlamini" />
+
+        <TextView
+            android:id="@+id/tvVolunteerSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Philisa.Caption"
+            tools:text="Women's Empowerment · Khayelitsha" />
+
+        <TextView
+            android:id="@+id/tvVolunteerApplied"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Philisa.Caption"
+            tools:text="Applied 30 Jul 2026" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvVolunteerStatus"
+        style="@style/Widget.Philisa.StatusPill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Pending" />
+
+</LinearLayout>

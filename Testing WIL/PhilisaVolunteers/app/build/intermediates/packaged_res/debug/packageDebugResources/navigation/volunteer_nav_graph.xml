@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/volunteer_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.philisa.volunteers.ui.volunteer.home.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/activitiesFragment"
+        android:name="com.philisa.volunteers.ui.volunteer.activities.ActivitiesFragment"
+        android:label="Activities" />
+
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.philisa.volunteers.ui.volunteer.schedule.ScheduleFragment"
+        android:label="Schedule" />
+
+    <fragment
+        android:id="@+id/communityFragment"
+        android:name="com.philisa.volunteers.ui.volunteer.community.CommunityFragment"
+        android:label="Community" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.philisa.volunteers.ui.volunteer.profile.ProfileFragment"
+        android:label="Profile">
+        <action
+            android:id="@+id/action_profileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.philisa.volunteers.ui.volunteer.profile.EditProfileFragment"
+        android:label="Edit Profile" />
+
+    <fragment
+        android:id="@+id/activityDetailsFragment"
+        android:name="com.philisa.volunteers.ui.volunteer.activities.ActivityDetailsFragment"
+        android:label="Activity Details">
+        <argument
+            android:name="extra_activity_id"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/announcementDetailsFragment"
+        android:name="com.philisa.volunteers.ui.volunteer.community.AnnouncementDetailsFragment"
+        android:label="Announcement">
+        <argument
+            android:name="extra_announcement_id"
+            app:argType="string" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_activityDetailsFragment"
+        app:destination="@id/activityDetailsFragment" />
+
+    <action
+        android:id="@+id/action_global_announcementDetailsFragment"
+        app:destination="@id/announcementDetailsFragment" />
+
+</navigation>

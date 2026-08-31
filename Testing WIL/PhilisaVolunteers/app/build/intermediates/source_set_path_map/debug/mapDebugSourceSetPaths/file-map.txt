@@ -1,0 +1,62 @@
+com.philisa.volunteers.app-navigation-common-ktx-2.7.7-0 C:\Users\tlhog\.gradle\caches\8.9\transforms\00805b60dcf166423d1713d1e79413c8\transformed\navigation-common-ktx-2.7.7\res
+com.philisa.volunteers.app-activity-ktx-1.8.1-1 C:\Users\tlhog\.gradle\caches\8.9\transforms\0571c458438efde8e38df3dc44798a81\transformed\activity-ktx-1.8.1\res
+com.philisa.volunteers.app-navigation-fragment-ktx-2.7.7-2 C:\Users\tlhog\.gradle\caches\8.9\transforms\11ddf65ff769a59768776ab89092f34c\transformed\navigation-fragment-ktx-2.7.7\res
+com.philisa.volunteers.app-play-services-basement-18.3.0-3 C:\Users\tlhog\.gradle\caches\8.9\transforms\12f875b2320e33c6d0dbee0d94711ccb\transformed\play-services-basement-18.3.0\res
+com.philisa.volunteers.app-play-services-auth-20.7.0-4 C:\Users\tlhog\.gradle\caches\8.9\transforms\1e3f991c75ab2d54bfe2db085423e16b\transformed\play-services-auth-20.7.0\res
+com.philisa.volunteers.app-fragment-ktx-1.8.2-5 C:\Users\tlhog\.gradle\caches\8.9\transforms\2140aaee8ef94ee8b2ae4faf3c2b372c\transformed\fragment-ktx-1.8.2\res
+com.philisa.volunteers.app-material-1.12.0-6 C:\Users\tlhog\.gradle\caches\8.9\transforms\2298065553c02f0978bf69131099b148\transformed\material-1.12.0\res
+com.philisa.volunteers.app-coordinatorlayout-1.1.0-7 C:\Users\tlhog\.gradle\caches\8.9\transforms\22b0b268ca26336329d5cdf0dfe3af84\transformed\coordinatorlayout-1.1.0\res
+com.philisa.volunteers.app-activity-1.8.1-8 C:\Users\tlhog\.gradle\caches\8.9\transforms\278411c08f8a2ac72e04ba85ccb1b893\transformed\activity-1.8.1\res
+com.philisa.volunteers.app-emoji2-views-helper-1.3.0-9 C:\Users\tlhog\.gradle\caches\8.9\transforms\2a388c7cc47238d8dd6802b67075119d\transformed\emoji2-views-helper-1.3.0\res
+com.philisa.volunteers.app-core-1.13.1-10 C:\Users\tlhog\.gradle\caches\8.9\transforms\2a4256e1628648764b589ad2c3f08c66\transformed\core-1.13.1\res
+com.philisa.volunteers.app-lifecycle-viewmodel-release-11 C:\Users\tlhog\.gradle\caches\8.9\transforms\2e97e21ef82defe121ab50d7032737a8\transformed\lifecycle-viewmodel-release\res
+com.philisa.volunteers.app-lifecycle-livedata-core-ktx-2.8.4-12 C:\Users\tlhog\.gradle\caches\8.9\transforms\34c5e7ed540d3dafa317d2ea27859eb5\transformed\lifecycle-livedata-core-ktx-2.8.4\res
+com.philisa.volunteers.app-drawerlayout-1.1.1-13 C:\Users\tlhog\.gradle\caches\8.9\transforms\34ce0f337523b28d3fe9d209caf852d8\transformed\drawerlayout-1.1.1\res
+com.philisa.volunteers.app-savedstate-ktx-1.2.1-14 C:\Users\tlhog\.gradle\caches\8.9\transforms\37669dfc3bc037a8ca3a94fda34cf1e0\transformed\savedstate-ktx-1.2.1\res
+com.philisa.volunteers.app-navigation-runtime-2.7.7-15 C:\Users\tlhog\.gradle\caches\8.9\transforms\389d29f50592b2f7d866f9aca6e4b08f\transformed\navigation-runtime-2.7.7\res
+com.philisa.volunteers.app-slidingpanelayout-1.2.0-16 C:\Users\tlhog\.gradle\caches\8.9\transforms\42c4b3090cca6ba7b2da85311a182cac\transformed\slidingpanelayout-1.2.0\res
+com.philisa.volunteers.app-credentials-1.2.0-rc01-17 C:\Users\tlhog\.gradle\caches\8.9\transforms\430727cd1a4f5056e7edf2ae26367b0b\transformed\credentials-1.2.0-rc01\res
+com.philisa.volunteers.app-navigation-ui-ktx-2.7.7-18 C:\Users\tlhog\.gradle\caches\8.9\transforms\43ae13dcfce8075cb4a867541f4cd1be\transformed\navigation-ui-ktx-2.7.7\res
+com.philisa.volunteers.app-startup-runtime-1.1.1-19 C:\Users\tlhog\.gradle\caches\8.9\transforms\525b15cbb3de2c844f7245f4132c9706\transformed\startup-runtime-1.1.1\res
+com.philisa.volunteers.app-recyclerview-1.3.2-20 C:\Users\tlhog\.gradle\caches\8.9\transforms\528d0cc79b9d29c78351afe6bbfea790\transformed\recyclerview-1.3.2\res
+com.philisa.volunteers.app-core-runtime-2.2.0-21 C:\Users\tlhog\.gradle\caches\8.9\transforms\56c3bfc5e44710de2a0eb03ba9d9be3d\transformed\core-runtime-2.2.0\res
+com.philisa.volunteers.app-navigation-fragment-2.7.7-22 C:\Users\tlhog\.gradle\caches\8.9\transforms\5abe35f635ee2574480203a9d8921771\transformed\navigation-fragment-2.7.7\res
+com.philisa.volunteers.app-lifecycle-runtime-ktx-release-23 C:\Users\tlhog\.gradle\caches\8.9\transforms\5ece3fd9dcf7f240acaf5323aa8eb67d\transformed\lifecycle-runtime-ktx-release\res
+com.philisa.volunteers.app-annotation-experimental-1.4.0-24 C:\Users\tlhog\.gradle\caches\8.9\transforms\68447418eb621ab9830d949a514d00d3\transformed\annotation-experimental-1.4.0\res
+com.philisa.volunteers.app-glide-4.16.0-25 C:\Users\tlhog\.gradle\caches\8.9\transforms\6d5aa17b678b129c4eb7f65b8a1438b1\transformed\glide-4.16.0\res
+com.philisa.volunteers.app-emoji2-1.3.0-26 C:\Users\tlhog\.gradle\caches\8.9\transforms\7752ec2d7c48e3f8f3842adaaaeef9c0\transformed\emoji2-1.3.0\res
+com.philisa.volunteers.app-lifecycle-runtime-release-27 C:\Users\tlhog\.gradle\caches\8.9\transforms\7d0229e83051c75e909097831c344853\transformed\lifecycle-runtime-release\res
+com.philisa.volunteers.app-profileinstaller-1.3.1-28 C:\Users\tlhog\.gradle\caches\8.9\transforms\8ff251febc7c6eed32d69d39afe1b763\transformed\profileinstaller-1.3.1\res
+com.philisa.volunteers.app-appcompat-resources-1.7.0-29 C:\Users\tlhog\.gradle\caches\8.9\transforms\91c5f1e8bc5b641ec0c389fd30ece642\transformed\appcompat-resources-1.7.0\res
+com.philisa.volunteers.app-browser-1.4.0-30 C:\Users\tlhog\.gradle\caches\8.9\transforms\967f455285e11bd0fba1eb8367bfb80b\transformed\browser-1.4.0\res
+com.philisa.volunteers.app-savedstate-1.2.1-31 C:\Users\tlhog\.gradle\caches\8.9\transforms\98c2b20c5d7b63cbf0cf9e759ca0d70a\transformed\savedstate-1.2.1\res
+com.philisa.volunteers.app-navigation-ui-2.7.7-32 C:\Users\tlhog\.gradle\caches\8.9\transforms\99f930425081f0514fac9c43e95b0b2d\transformed\navigation-ui-2.7.7\res
+com.philisa.volunteers.app-appcompat-1.7.0-33 C:\Users\tlhog\.gradle\caches\8.9\transforms\9ec91bcad597eef5d951a20bfa5fa293\transformed\appcompat-1.7.0\res
+com.philisa.volunteers.app-navigation-common-2.7.7-34 C:\Users\tlhog\.gradle\caches\8.9\transforms\a0edecdc7b6fac9e8d5e605931b896cb\transformed\navigation-common-2.7.7\res
+com.philisa.volunteers.app-customview-poolingcontainer-1.0.0-35 C:\Users\tlhog\.gradle\caches\8.9\transforms\a187a97d0d6ab12a6d342f4d6cfc1b78\transformed\customview-poolingcontainer-1.0.0\res
+com.philisa.volunteers.app-lifecycle-livedata-core-2.8.4-36 C:\Users\tlhog\.gradle\caches\8.9\transforms\ad330069521cbf974b4976fdf070556c\transformed\lifecycle-livedata-core-2.8.4\res
+com.philisa.volunteers.app-core-ktx-1.13.1-37 C:\Users\tlhog\.gradle\caches\8.9\transforms\b5ffcd0092076ae36293a8f527f421bc\transformed\core-ktx-1.13.1\res
+com.philisa.volunteers.app-window-1.0.0-38 C:\Users\tlhog\.gradle\caches\8.9\transforms\bed8babe14b35b55e18528a0d7b1e9fd\transformed\window-1.0.0\res
+com.philisa.volunteers.app-lifecycle-livedata-ktx-2.8.4-39 C:\Users\tlhog\.gradle\caches\8.9\transforms\c29555a881e0885af4fded8d9e2c9d03\transformed\lifecycle-livedata-ktx-2.8.4\res
+com.philisa.volunteers.app-swiperefreshlayout-1.1.0-40 C:\Users\tlhog\.gradle\caches\8.9\transforms\c7cb10678461e1bf06c249eeec521b3d\transformed\swiperefreshlayout-1.1.0\res
+com.philisa.volunteers.app-transition-1.5.0-41 C:\Users\tlhog\.gradle\caches\8.9\transforms\c7e2c27b9d74c57ee9df6cd08818f555\transformed\transition-1.5.0\res
+com.philisa.volunteers.app-viewpager2-1.1.0-beta02-42 C:\Users\tlhog\.gradle\caches\8.9\transforms\c96a726fd1c01a82da7a9ef4b4ee3b2c\transformed\viewpager2-1.1.0-beta02\res
+com.philisa.volunteers.app-navigation-runtime-ktx-2.7.7-43 C:\Users\tlhog\.gradle\caches\8.9\transforms\cafe08768dfef2006b267409e9d94bde\transformed\navigation-runtime-ktx-2.7.7\res
+com.philisa.volunteers.app-lifecycle-viewmodel-savedstate-2.8.4-44 C:\Users\tlhog\.gradle\caches\8.9\transforms\d0508cbfd143195584ee8cfd2b3e4b68\transformed\lifecycle-viewmodel-savedstate-2.8.4\res
+com.philisa.volunteers.app-fragment-1.8.2-45 C:\Users\tlhog\.gradle\caches\8.9\transforms\d8b264558217e598243d7af71bf1f5c4\transformed\fragment-1.8.2\res
+com.philisa.volunteers.app-constraintlayout-2.1.4-46 C:\Users\tlhog\.gradle\caches\8.9\transforms\dc2858808bf7efbe008d5f98895f3d6a\transformed\constraintlayout-2.1.4\res
+com.philisa.volunteers.app-firebase-common-21.0.0-47 C:\Users\tlhog\.gradle\caches\8.9\transforms\e2a818eea00b733378ef420c3561df24\transformed\firebase-common-21.0.0\res
+com.philisa.volunteers.app-lifecycle-process-2.8.4-48 C:\Users\tlhog\.gradle\caches\8.9\transforms\eb156ba0b3a68717e3fdb5ba31e88e13\transformed\lifecycle-process-2.8.4\res
+com.philisa.volunteers.app-credentials-play-services-auth-1.2.0-rc01-49 C:\Users\tlhog\.gradle\caches\8.9\transforms\ed3a52fd6deee7eaa79d46c726ffee8b\transformed\credentials-play-services-auth-1.2.0-rc01\res
+com.philisa.volunteers.app-play-services-base-18.1.0-50 C:\Users\tlhog\.gradle\caches\8.9\transforms\ed586129ecc6048ded23a8f36debfc5a\transformed\play-services-base-18.1.0\res
+com.philisa.volunteers.app-lifecycle-livedata-2.8.4-51 C:\Users\tlhog\.gradle\caches\8.9\transforms\ef9b4adfb0ccae6a11771431c31176ae\transformed\lifecycle-livedata-2.8.4\res
+com.philisa.volunteers.app-cardview-1.0.0-52 C:\Users\tlhog\.gradle\caches\8.9\transforms\f2e3360ef658b6126bff430833d0eb32\transformed\cardview-1.0.0\res
+com.philisa.volunteers.app-lifecycle-viewmodel-ktx-2.8.4-53 C:\Users\tlhog\.gradle\caches\8.9\transforms\ff94684c4205a042f87e9fc4da9086a2\transformed\lifecycle-viewmodel-ktx-2.8.4\res
+com.philisa.volunteers.app-pngs-54 C:\Users\tlhog\Music\Testing WIL\PhilisaVolunteers\app\build\generated\res\pngs\debug
+com.philisa.volunteers.app-res-55 C:\Users\tlhog\Music\Testing WIL\PhilisaVolunteers\app\build\generated\res\processDebugGoogleServices
+com.philisa.volunteers.app-resValues-56 C:\Users\tlhog\Music\Testing WIL\PhilisaVolunteers\app\build\generated\res\resValues\debug
+com.philisa.volunteers.app-packageDebugResources-57 C:\Users\tlhog\Music\Testing WIL\PhilisaVolunteers\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.philisa.volunteers.app-packageDebugResources-58 C:\Users\tlhog\Music\Testing WIL\PhilisaVolunteers\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.philisa.volunteers.app-debug-59 C:\Users\tlhog\Music\Testing WIL\PhilisaVolunteers\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.philisa.volunteers.app-debug-60 C:\Users\tlhog\Music\Testing WIL\PhilisaVolunteers\app\src\debug\res
+com.philisa.volunteers.app-main-61 C:\Users\tlhog\Music\Testing WIL\PhilisaVolunteers\app\src\main\res

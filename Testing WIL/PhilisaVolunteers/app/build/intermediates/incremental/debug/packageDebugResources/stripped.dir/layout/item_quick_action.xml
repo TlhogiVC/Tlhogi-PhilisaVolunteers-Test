@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- New layout, not in the original 30 — the 5 Quick Action rows on Admin Overview (Figs 68-69,
+     plus the 2 new Impact Stats/Gallery actions) share identical markup, so this avoids
+     repeating the same icon+title+subtitle+chevron structure five times inline. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_sm"
+    android:background="@drawable/bg_card"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/spacing_md">
+
+    <ImageView
+        android:id="@+id/ivActionIcon"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginEnd="@dimen/spacing_md"
+        android:contentDescription="@null"
+        app:tint="@color/purple_700" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvActionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Philisa.Subtitle"
+            tools:text="Create New Activity" />
+
+        <TextView
+            android:id="@+id/tvActionSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Philisa.Caption"
+            tools:text="Publish a new volunteer opportunity" />
+    </LinearLayout>
+
+</LinearLayout>

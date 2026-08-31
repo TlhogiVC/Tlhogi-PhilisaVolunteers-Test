@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Documents the auth/application Activity flow (Figs 49-55) using <activity> destinations.
+     Runtime navigation between these screens is done with explicit Intents via
+     navigation/AuthNavGraph.kt, since each destination is a separate Activity with its own
+     activity_*.xml layout rather than a Fragment inside a shared NavHost. This graph is kept
+     as a valid, inflatable navigation map because auth_nav_graph.xml is part of the approved
+     file structure. -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/auth_nav_graph"
+    app:startDestination="@id/welcomeActivityDestination">
+
+    <activity
+        android:id="@+id/welcomeActivityDestination"
+        android:name="com.philisa.volunteers.ui.auth.WelcomeActivity"
+        android:label="Welcome" />
+
+    <activity
+        android:id="@+id/loginChoiceActivityDestination"
+        android:name="com.philisa.volunteers.ui.auth.LoginChoiceActivity"
+        android:label="Login" />
+
+    <activity
+        android:id="@+id/personalDetailsActivityDestination"
+        android:name="com.philisa.volunteers.ui.auth.application.PersonalDetailsActivity"
+        android:label="Your Details" />
+
+    <activity
+        android:id="@+id/programmeInterestActivityDestination"
+        android:name="com.philisa.volunteers.ui.auth.application.ProgrammeInterestActivity"
+        android:label="Your Interests" />
+
+    <activity
+        android:id="@+id/reviewApplicationActivityDestination"
+        android:name="com.philisa.volunteers.ui.auth.application.ReviewApplicationActivity"
+        android:label="Review &amp; Submit" />
+
+    <activity
+        android:id="@+id/applicationSuccessActivityDestination"
+        android:name="com.philisa.volunteers.ui.auth.application.ApplicationSuccessActivity"
+        android:label="Application Status" />
+
+</navigation>

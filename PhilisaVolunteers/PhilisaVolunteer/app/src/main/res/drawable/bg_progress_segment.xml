@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tint with @color/progress_active or @color/progress_inactive per segment/step. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/progress_active" />
+    <corners android:radius="4dp" />
+</shape>

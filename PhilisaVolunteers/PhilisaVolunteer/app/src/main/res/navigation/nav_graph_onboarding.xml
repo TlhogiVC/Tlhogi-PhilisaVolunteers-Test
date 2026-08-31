@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Onboarding + volunteer-application flow (Figures 49-54).
+  Hosted by a NavHostFragment inside OnboardingActivity (or MainActivity
+  before login - see README for the two-host-Activity structure).
+  Kotlin Fragment classes referenced below still need to be created;
+  each one simply inflates its matching fragment_*.xml via View Binding.
+-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_onboarding"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.philisa.volunteer.onboarding.WelcomeFragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcome_to_landing"
+            app:destination="@id/landingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/landingFragment"
+        android:name="com.philisa.volunteer.onboarding.LandingFragment"
+        android:label="Landing"
+        tools:layout="@layout/fragment_landing">
+        <action
+            android:id="@+id/action_landing_to_apply_step1"
+            app:destination="@id/applyStep1Fragment" />
+        <action
+            android:id="@+id/action_landing_to_login"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <!--
+      fragment_login.xml (Figure 55) belongs to the next screen batch, so
+      loginFragment has no tools:layout preview yet. Once that layout is
+      added, wire it up the same way as the other destinations above.
+    -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.philisa.volunteer.auth.LoginFragment"
+        android:label="Login" />
+
+    <fragment
+        android:id="@+id/applyStep1Fragment"
+        android:name="com.philisa.volunteer.application.ApplyStep1Fragment"
+        android:label="Your Details"
+        tools:layout="@layout/fragment_apply_step1_details">
+        <action
+            android:id="@+id/action_step1_to_step2"
+            app:destination="@id/applyStep2Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/applyStep2Fragment"
+        android:name="com.philisa.volunteer.application.ApplyStep2Fragment"
+        android:label="Your Interests"
+        tools:layout="@layout/fragment_apply_step2_interests">
+        <action
+            android:id="@+id/action_step2_to_step3"
+            app:destination="@id/applyStep3Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/applyStep3Fragment"
+        android:name="com.philisa.volunteer.application.ApplyStep3Fragment"
+        android:label="Review &amp; Submit"
+        tools:layout="@layout/fragment_apply_step3_review">
+        <action
+            android:id="@+id/action_step3_to_status"
+            app:destination="@id/applicationStatusFragment"
+            app:popUpTo="@id/landingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/applicationStatusFragment"
+        android:name="com.philisa.volunteer.application.ApplicationStatusFragment"
+        android:label="Application Status"
+        tools:layout="@layout/fragment_application_status" />
+
+</navigation>

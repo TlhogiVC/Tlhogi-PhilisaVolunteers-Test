@@ -1,0 +1,342 @@
+[
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_activities.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_activities.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/navigation_volunteer_nav_graph.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/navigation/volunteer_nav_graph.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_manage_impact_stats.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_manage_impact_stats.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_edit_profile.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_edit_profile.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_item_timeline_step.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/item_timeline_step.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_my_activities.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_my_activities.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_admin_applied.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_admin_applied.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_bg_gradient_header.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/bg_gradient_header.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_delete.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_item_application.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/item_application.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/navigation_admin_nav_graph.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/navigation/admin_nav_graph.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_profile.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_create_announcement.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_create_announcement.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_applicant_details.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_applicant_details.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_bg_button_primary.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_item_impact_stat.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/item_impact_stat.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_item_summary_row.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/item_summary_row.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_edit_activity.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_edit_activity.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_manage_volunteers.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_manage_volunteers.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_activity_splash.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_location.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_item_activity.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/item_activity.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_admin_posts.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_admin_posts.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_activity_personal_details.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/activity_personal_details.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_bg_input.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/bg_input.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_calendar.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_activity_review_application.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/activity_review_application.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_manage_gallery.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_manage_gallery.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_item_schedule.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/item_schedule.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/navigation_nav_graph.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_item_gallery.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/item_gallery.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_activity_application_success.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/activity_application_success.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_admin_volunteers.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_admin_volunteers.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/menu_bottom_navigation.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/menu/bottom_navigation.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_schedule.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_add.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_activity_login_choice.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/activity_login_choice.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/xml_data_extraction_rules.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_item_interest_option.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/item_interest_option.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_admin_overview.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_admin_overview.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/navigation_auth_nav_graph.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/navigation/auth_nav_graph.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_announcement_details.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_announcement_details.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_edit.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_community.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_community.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_activity_welcome.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_email.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_bg_button_secondary.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/bg_button_secondary.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_activities.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_activities.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_activity_admin_main.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/activity_admin_main.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_photo.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_photo.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_manage_activities.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_manage_activities.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_bg_pill_status.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/bg_pill_status.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_bg_info_banner.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/bg_info_banner.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_home.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_bg_profile_circle.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/bg_profile_circle.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_item_announcement.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/item_announcement.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/xml_backup_rules.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_dialog_forgot_password.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/dialog_forgot_password.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_people.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_people.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/menu_admin_menu.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/menu/admin_menu.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_create_activity.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_create_activity.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_item_quick_action.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/item_quick_action.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_activity_programme_interest.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/activity_programme_interest.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_manage_announcements.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_manage_announcements.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_back.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_logout.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_check_circle.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_check_circle.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_activity_volunteer_main.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/activity_volunteer_main.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_bg_card.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_home.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_profile.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_item_volunteer.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/item_volunteer.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_admin_dashboard.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_admin_dashboard.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_activity_details.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_activity_details.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_community.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_community.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_schedule.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_schedule.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_ic_phone.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_volunteer_details.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_volunteer_details.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_item_detail_row.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/item_detail_row.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/layout_fragment_manage_activity_applications.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/layout/fragment_manage_activity_applications.xml"
+    },
+    {
+        "merged": "com.philisa.volunteers.app-debug-59:/drawable_logo_philisa.xml.flat",
+        "source": "com.philisa.volunteers.app-main-61:/drawable/logo_philisa.xml"
+    }
+]

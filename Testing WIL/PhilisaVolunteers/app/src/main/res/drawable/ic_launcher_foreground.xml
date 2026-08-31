@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- New file — adaptive icon foreground layer, required alongside ic_launcher_background. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,29 C40,29 29,40 29,54 C29,68 40,79 54,79 C60,79 65.5,77 70,73.5 L63,66.5 C60,68.5 57.2,69.5 54,69.5 C45.5,69.5 38.5,62.5 38.5,54 C38.5,45.5 45.5,38.5 54,38.5 C57.6,38.5 60.8,39.7 63.4,41.8 L70.5,34.7 C65.8,31 60.2,29 54,29 Z" />
+</vector>
